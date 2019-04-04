@@ -5,6 +5,7 @@
 	<persistence-unit name="demo-jpa" transaction-type="RESOURCE_LOCAL">
 		<!-- Choix de l'implémentation JPA (ici Hibernate) -->
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		
 		<properties>
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/formation-jpa" />
 			<property name="javax.persistence.jdbc.user" value="root" />
